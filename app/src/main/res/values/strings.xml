@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ShutterStockDemo</string>
+    <string name="loading_data">Please wait! Loading data..</string>
+    <string name="lang.username">Username</string>
+    <string name="lang.pwd">Password</string>
+    <string name="lang.login">Sign in</string>
+    <string name="there_is_no_data">There is no data</string>
+</resources>

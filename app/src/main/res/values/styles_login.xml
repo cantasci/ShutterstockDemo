@@ -1,0 +1,20 @@
+<resources>
+
+    <color name="local.controlnormal">#f2f2f2</color>
+
+    <style name="LoginEditText" parent="Widget.AppCompat.EditText">
+        <item name="colorAccent">@color/local.controlnormal</item>
+        <item name="colorControlNormal">@color/local.controlnormal</item>
+        <item name="colorControlActivated">@color/local.controlnormal</item>
+        <item name="colorControlHighlight">@color/local.controlnormal</item>
+        <item name="android:textColor">@color/local.controlnormal</item>
+    </style>
+
+    <style name="LoginTextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="colorAccent">@color/local.controlnormal</item>
+        <item name="android:textColorHint">@color/local.controlnormal</item>
+    </style>
+
+
+
+</resources>

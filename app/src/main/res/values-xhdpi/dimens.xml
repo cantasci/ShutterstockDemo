@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="life_view">40dp</dimen>
+    <dimen name="life_view_exteded">48dp</dimen>
+    <dimen name="life_view_huge">64dp</dimen>
+    <dimen name="life_view_extra_huge">96dp</dimen>
+
+    <integer name="screen_column_count">4</integer>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="grey">#555</color>
+    <color name="half_opacity_grey">#80696969</color>
+    <color name="half_opacity_grey_dialog">#80000000</color>
+    <color name="light_grey">#aaa</color>
+    <color name="lighter_grey">#EFEFF3</color>
+    <color name="state_undefined">#58676C</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="light_grey_2">#BABABA</color>
+
+    <color name="text_red">#c6353c</color>
+    <color name="text_gray">#58676C</color>
+</resources>

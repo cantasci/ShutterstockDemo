@@ -1,0 +1,89 @@
+<RelativeLayout android:id="@+id/root_login"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/login_container"
+            android:layout_alignParentTop="true"
+            android:scaleType="center"
+            android:src="@mipmap/ic_launcher_round"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/life_view"
+            android:gravity="center"
+            android:id="@+id/login_container"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:theme="@style/LoginTextInputLayout">
+
+                <EditText
+                    android:id="@+id/launcher_login_username"
+                    style="@style/LoginEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/lang.username"
+                    android:imeOptions="actionNext"
+                    android:nextFocusForward="@+id/launcher_login_password"
+                    android:nextFocusRight="@+id/launcher_login_password"
+                    android:singleLine="true"
+                    android:maxLines="1"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/life_view"
+                app:theme="@style/LoginTextInputLayout">
+
+
+                <EditText
+                    android:id="@+id/launcher_login_password"
+                    style="@style/LoginEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/lang.pwd"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:maxLines="1"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/life_view"
+                android:text="@string/lang.login"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
